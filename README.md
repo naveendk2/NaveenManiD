@@ -43,5 +43,5 @@ apache-ansible/
 Open a web browser and navigate to:
 http://<your-server-ip> ----> This URL will show the deployed Apache default or custom page to confirm success.
 
-```
+
 
