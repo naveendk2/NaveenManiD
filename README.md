@@ -33,7 +33,7 @@ apache-ansible/
 1. **Clone the repository:**
 
    bash
-   git clone https://github.com/YourUsername/apache-ansible.git
+   git clone https://github.com/naveendk2/NaveenManiD.git
    cd apache-ansible
 
 2.Run the Ansible playbook:
