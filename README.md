@@ -12,15 +12,14 @@ This project automates the installation and configuration of the **Apache web se
 
 ## 🛠️ Tools & Technologies
 
-- 🐧 Linux (Ubuntu/CentOS)
-- ⚙️ Ansible
-- 📄 YAML
-- 🧑‍💻 Git & GitHub
-
+- 🐧 Linux (Ubuntu/CentOS)  
+- ⚙️ Ansible  
+- 📄 YAML  
+- 🧑‍💻 Git & GitHub  
+````
 ---
-```
-## 📂 Project Structure
 
+## 📂 Project Structure
 
 apache-ansible/
 ├── apache.yml # Ansible playbook to install and configure Apache
@@ -28,14 +27,20 @@ apache-ansible/
 ├── index.html # Sample HTML page to deploy
 └── README.md # Project documentation
 
+---
 ## 🚀 How to Run
 
-1. Clone the repo:
-   ```bash
+1. **Clone the repository:**
+
+   bash
    git clone https://github.com/YourUsername/apache-ansible.git
    cd apache-ansible
-2. ansible-playbook -i inventory apache.yml
+
+2.Run the Ansible playbook:
+ #ansible-playbook -i inventory apache.yml   ---> use this command
+
+3.Verify deployment:
+Open a web browser and navigate to:
+http://<your-server-ip> ----> This URL will show the deployed Apache default or custom page to confirm success.
 ```
-
-
 
